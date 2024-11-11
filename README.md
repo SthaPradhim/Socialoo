@@ -39,41 +39,41 @@ A full-stack e-commerce solution built with MongoDB, Express.js, React, Node.js 
  [ ] Input validation<br/>
  [ ] Security enhancements<br/><br/>
 **Features**<br/>
-Admin Dashboard<br/>
-Secure admin authentication<br/>
-Product management (Add, Edit, Delete)<br/>
-Image upload with drag & drop<br/>
-Order tracking<br/>
-Inventory management<br/>
-Sales analytics<br/>
-Customer Interface<br/>
-User registration and login<br/>
-Intuitive product browsing<br/>
-Advanced filtering options<br/>
-Category-based navigation<br/>
-Product search<br/>
-Shopping cart<br/>
-User reviews and ratings<br/>
-Responsive design for all devices<br/>
-Technical Features<br/>
-Server-side rendering with Next.js<br/>
-MongoDB for flexible, scalable data storage<br/>
-Express.js for robust API development<br/>
-React for dynamic user interfaces<br/>
-Next.js API routes for serverless functions<br/>
-Responsive design with Tailwind CSS<br/>
-Form validation<br/>
-Image optimization<br/>
-Protected routes<br/><br/>
+-> Admin Dashboard<br/>
+-> Secure admin authentication<br/>
+-> Product management (Add, Edit, Delete)<br/>
+-> Image upload with drag & drop<br/>
+-> Order tracking<br/>
+-> Inventory management<br/>
+-> Sales analytics<br/>
+-> Customer Interface<br/>
+-> User registration and login<br/>
+-> Intuitive product browsing<br/>
+-> Advanced filtering options<br/>
+-> Category-based navigation<br/>
+-> Product search<br/>
+-> Shopping cart<br/>
+-> User reviews and ratings<br/>
+-> Responsive design for all devices<br/>
+-> Technical Features<br/>
+-> Server-side rendering with Next.js<br/>
+-> MongoDB for flexible, scalable data storage<br/>
+-> Express.js for robust API development<br/>
+-> React for dynamic user interfaces<br/>
+-> Next.js API routes for serverless functions<br/>
+-> Responsive design with Tailwind CSS<br/>
+-> Form validation<br/>
+-> Image optimization<br/>
+-> Protected routes<br/><br/>
 **Getting Started**<br/>
-Clone the repository<br/>
+1. Clone the repository<br/>
 git clone https://github.com/SthaPradhim/TradeNepal<br/>
-Install dependencies<br/>
-cd mern-ecommerce-platform<br/>
-npm install<br/>
-Set up environment variables (see below)<br/>
+2. Install dependencies<br/>
+3. cd mern-ecommerce-platform<br/>
+4. npm install<br/>
+5. Set up environment variables (see below)<br/><br/>
 
-Start the development server<br/>
+Start the development server<br/><br/>
 
 npm run dev<br/>
 Environment Variables<br/>
@@ -96,7 +96,7 @@ Icons: Lucide React<br/>
 Forms: React Hook Form<br/>
 Project Structure<br/>
 The project follows Next.js 13+ folder structure:<br/>
-
+<pre>
 /app<br/>
   /admin<br/>
     /dashboard<br/>
@@ -113,6 +113,7 @@ The project follows Next.js 13+ folder structure:<br/>
 /lib<br/>
 /models<br/>
 /public<br/><br/>
+ </pre><br/>
 **API Routes**<br/>
 /api/auth: User authentication (login, signup)<br/>
 /api/products: Product management<br/>
