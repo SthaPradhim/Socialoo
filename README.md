@@ -1,130 +1,130 @@
 # TradeNepal
 
-Modern MERN E-commerce Platform
-A full-stack e-commerce solution built with MongoDB, Express.js, React, Node.js (MERN), and Next.js, featuring both customer-facing storefront and admin dashboard.
+**Modern MERN E-commerce Platform**<br/>
+A full-stack e-commerce solution built with MongoDB, Express.js, React, Node.js (MERN), and Next.js, featuring both customer-facing storefront and admin dashboard.<br/>
 
-Project Phases
-Phase 1: Foundation & Setup
- Project initialization with Next.js
- MongoDB database setup
- Express.js API configuration
- Tailwind CSS integration
- Next.js API routes setup
- User authentication (Login and SignUp)
-Phase 2: Admin Dashboard
- Admin authentication
- Product management CRUD operations
- Image upload functionality
- Dashboard analytics
- Order management system
-Phase 3: Store Front Development
- Homepage with hero section
- Product catalog with filtering
- Category navigation
- Product detail pages
- Shopping cart functionality
- User authentication
-Phase 4: Enhanced Features
- Product reviews and ratings
- Advanced filtering and sorting
- Stock management
- Multiple image support
- Responsive design
- Brand categorization
-Phase 5: Optimization & Polish
- Performance optimization
- SEO implementation
- Loading states
- Error handling
- Input validation
- Security enhancements
-Features
-Admin Dashboard
-Secure admin authentication
-Product management (Add, Edit, Delete)
-Image upload with drag & drop
-Order tracking
-Inventory management
-Sales analytics
-Customer Interface
-User registration and login
-Intuitive product browsing
-Advanced filtering options
-Category-based navigation
-Product search
-Shopping cart
-User reviews and ratings
-Responsive design for all devices
-Technical Features
-Server-side rendering with Next.js
-MongoDB for flexible, scalable data storage
-Express.js for robust API development
-React for dynamic user interfaces
-Next.js API routes for serverless functions
-Responsive design with Tailwind CSS
-Form validation
-Image optimization
-Protected routes
-Getting Started
-Clone the repository
-git clone https://github.com/yourusername/mern-ecommerce-platform.git
-Install dependencies
-cd mern-ecommerce-platform
-npm install
-Set up environment variables (see below)
+**Project Phases**<br/>
+Phase 1: Foundation & Setup<br/>
+ Project initialization with Next.js<br/>
+ MongoDB database setup<br/>
+ Express.js API configuration<br/>
+ Tailwind CSS integration<br/>
+ Next.js API routes setup<br/>
+ User authentication (Login and SignUp)<br/><br/>
+Phase 2: Admin Dashboard<br/>
+ Admin authentication<br/>
+ Product management CRUD operations<br/>
+ Image upload functionality<br/>
+ Dashboard analytics<br/>
+ Order management system<br/><br/>
+Phase 3: Store Front Development<br/>
+ Homepage with hero section<br/>
+ Product catalog with filtering<br/>
+ Category navigation<br/>
+ Product detail pages<br/>
+ Shopping cart functionality<br/>
+ User authentication<br/><br/>
+Phase 4: Enhanced Features<br/>
+ Product reviews and ratings<br/>
+ Advanced filtering and sorting<br/>
+ Stock management<br/>
+ Multiple image support<br/>
+ Responsive design<br/>
+ Brand categorization<br/>
+Phase 5: Optimization & Polish<br/>
+ Performance optimization<br/>
+ SEO implementation<br/>
+ Loading states<br/>
+ Error handling<br/>
+ Input validation<br/>
+ Security enhancements<br/><br/>
+**Features**<br/>
+Admin Dashboard<br/>
+Secure admin authentication<br/>
+Product management (Add, Edit, Delete)<br/>
+Image upload with drag & drop<br/>
+Order tracking<br/>
+Inventory management<br/>
+Sales analytics<br/>
+Customer Interface<br/>
+User registration and login<br/>
+Intuitive product browsing<br/>
+Advanced filtering options<br/>
+Category-based navigation<br/>
+Product search<br/>
+Shopping cart<br/>
+User reviews and ratings<br/>
+Responsive design for all devices<br/>
+Technical Features<br/>
+Server-side rendering with Next.js<br/>
+MongoDB for flexible, scalable data storage<br/>
+Express.js for robust API development<br/>
+React for dynamic user interfaces<br/>
+Next.js API routes for serverless functions<br/>
+Responsive design with Tailwind CSS<br/>
+Form validation<br/>
+Image optimization<br/>
+Protected routes<br/><br/>
+**Getting Started**<br/>
+Clone the repository<br/>
+git clone https://github.com/yourusername/mern-ecommerce-platform.git<br/>
+Install dependencies<br/>
+cd mern-ecommerce-platform<br/>
+npm install<br/>
+Set up environment variables (see below)<br/>
 
-Start the development server
+Start the development server<br/>
 
-npm run dev
-Environment Variables
-Create a .env.local file in the root directory:
+npm run dev<br/>
+Environment Variables<br/>
+Create a .env.local file in the root directory:<br/>
 
-MONGODB_URI=your_mongodb_connection_string
-NEXT_PUBLIC_API_URL=http://localhost:3000/api
-CLOUDINARY_CLOUD_NAME=your_cloudinary_cloud_name
-CLOUDINARY_API_KEY=your_cloudinary_api_key
-CLOUDINARY_API_SECRET=your_cloudinary_api_secret
-JWT_SECRET=your_jwt_secret
-Tech Stack
-Frontend: React, Next.js, Tailwind CSS
-Backend: Node.js, Express.js
-Database: MongoDB
-File Storage: Cloudinary
-Authentication: JSON Web Tokens (JWT)
-Styling: Tailwind CSS
-Icons: Lucide React
-Forms: React Hook Form
-Project Structure
-The project follows Next.js 13+ folder structure:
+MONGODB_URI=your_mongodb_connection_string<br/>
+NEXT_PUBLIC_API_URL=http://localhost:3000/api<br/>
+CLOUDINARY_CLOUD_NAME=your_cloudinary_cloud_name<br/>
+CLOUDINARY_API_KEY=your_cloudinary_api_key<br/>
+CLOUDINARY_API_SECRET=your_cloudinary_api_secret<br/>
+JWT_SECRET=your_jwt_secret<br/>
+Tech Stack<br/>
+Frontend: React, Next.js, Tailwind CSS<br/>
+Backend: Node.js, Express.js<br/>
+Database: MongoDB<br/>
+File Storage: Cloudinary<br/>
+Authentication: JSON Web Tokens (JWT)<br/>
+Styling: Tailwind CSS<br/>
+Icons: Lucide React<br/>
+Forms: React Hook Form<br/>
+Project Structure<br/>
+The project follows Next.js 13+ folder structure:<br/>
 
-/app
-  /admin
-    /dashboard
-    /products
-    /orders
-  /shop
-    /products
-    /cart
-  /api
-  /auth
-    /login
-    /signup
-/components
-/lib
-/models
-/public
-API Routes
-/api/auth: User authentication (login, signup)
-/api/products: Product management
-/api/orders: Order processing
-/api/users: User management
-/api/reviews: Product reviews
-/api/categories: Product categories
-Contributing
-Fork the repository
-Create your feature branch (git checkout -b feature/AmazingFeature)
-Commit your changes (git commit -m 'Add some AmazingFeature')
-Push to the branch (git push origin feature/AmazingFeature)
-Open a Pull Request
-License
+/app<br/>
+  /admin<br/>
+    /dashboard<br/>
+    /products<br/>
+    /orders<br/>
+  /shop<br/>
+    /products<br/>
+    /cart<br/>
+  /api<br/>
+  /auth<br/>
+    /login<br/>
+    /signup<br/>
+/components<br/>
+/lib<br/>
+/models<br/>
+/public<br/>
+API Routes<br/>
+/api/auth: User authentication (login, signup)<br/>
+/api/products: Product management<br/>
+/api/orders: Order processing<br/>
+/api/users: User management<br/>
+/api/reviews: Product reviews<br/>
+/api/categories: Product categories<br/>
+Contributing<br/>
+Fork the repository<br/>
+Create your feature branch (git checkout -b feature/AmazingFeature)<br/>
+Commit your changes (git commit -m 'Add some AmazingFeature')<br/>
+Push to the branch (git push origin feature/AmazingFeature)<br/>
+Open a Pull Request<br/>
+License<br/>
 This project is licensed under the MIT License - see the LICENSE.md file for details.
