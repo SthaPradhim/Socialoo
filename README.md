@@ -67,7 +67,7 @@ Image optimization<br/>
 Protected routes<br/><br/>
 **Getting Started**<br/>
 Clone the repository<br/>
-git clone https://github.com/yourusername/mern-ecommerce-platform.git<br/>
+git clone https://github.com/SthaPradhim/TradeNepal<br/>
 Install dependencies<br/>
 cd mern-ecommerce-platform<br/>
 npm install<br/>
