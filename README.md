@@ -4,34 +4,34 @@
 A full-stack e-commerce solution built with MongoDB, Express.js, React, Node.js (MERN), and Next.js, featuring both customer-facing storefront and admin dashboard.<br/>
 
 **Project Phases**<br/>
-Phase 1: Foundation & Setup<br/>
+**Phase 1: Foundation & Setup**<br/>
  Project initialization with Next.js<br/>
  MongoDB database setup<br/>
  Express.js API configuration<br/>
  Tailwind CSS integration<br/>
  Next.js API routes setup<br/>
  User authentication (Login and SignUp)<br/><br/>
-Phase 2: Admin Dashboard<br/>
+**Phase 2: Admin Dashboard**<br/>
  Admin authentication<br/>
  Product management CRUD operations<br/>
  Image upload functionality<br/>
  Dashboard analytics<br/>
  Order management system<br/><br/>
-Phase 3: Store Front Development<br/>
+**Phase 3: Store Front Development**<br/>
  Homepage with hero section<br/>
  Product catalog with filtering<br/>
  Category navigation<br/>
  Product detail pages<br/>
  Shopping cart functionality<br/>
  User authentication<br/><br/>
-Phase 4: Enhanced Features<br/>
+**Phase 4: Enhanced Features**<br/>
  Product reviews and ratings<br/>
  Advanced filtering and sorting<br/>
  Stock management<br/>
  Multiple image support<br/>
  Responsive design<br/>
  Brand categorization<br/>
-Phase 5: Optimization & Polish<br/>
+**Phase 5: Optimization & Polish**<br/>
  Performance optimization<br/>
  SEO implementation<br/>
  Loading states<br/>
@@ -112,19 +112,19 @@ The project follows Next.js 13+ folder structure:<br/>
 /components<br/>
 /lib<br/>
 /models<br/>
-/public<br/>
-API Routes<br/>
+/public<br/><br/>
+**API Routes**<br/>
 /api/auth: User authentication (login, signup)<br/>
 /api/products: Product management<br/>
 /api/orders: Order processing<br/>
 /api/users: User management<br/>
 /api/reviews: Product reviews<br/>
-/api/categories: Product categories<br/>
-Contributing<br/>
+/api/categories: Product categories<br/><br/>
+**Contributing**<br/>
 Fork the repository<br/>
 Create your feature branch (git checkout -b feature/AmazingFeature)<br/>
 Commit your changes (git commit -m 'Add some AmazingFeature')<br/>
 Push to the branch (git push origin feature/AmazingFeature)<br/>
-Open a Pull Request<br/>
-License<br/>
+Open a Pull Request<br/><br/>
+**License**<br/>
 This project is licensed under the MIT License - see the LICENSE.md file for details.
