@@ -5,39 +5,39 @@ A full-stack e-commerce solution built with MongoDB, Express.js, React, Node.js 
 
 **Project Phases**<br/>
 **Phase 1: Foundation & Setup**<br/>
- Project initialization with Next.js<br/>
- MongoDB database setup<br/>
- Express.js API configuration<br/>
- Tailwind CSS integration<br/>
- Next.js API routes setup<br/>
- User authentication (Login and SignUp)<br/><br/>
+ [] Project initialization with Next.js<br/>
+ [] MongoDB database setup<br/>
+ [] Express.js API configuration<br/>
+ [] Tailwind CSS integration<br/>
+ [] Next.js API routes setup<br/>
+ [] User authentication (Login and SignUp)<br/><br/>
 **Phase 2: Admin Dashboard**<br/>
- Admin authentication<br/>
- Product management CRUD operations<br/>
- Image upload functionality<br/>
- Dashboard analytics<br/>
- Order management system<br/><br/>
+ [] Admin authentication<br/>
+ [] Product management CRUD operations<br/>
+ [] Image upload functionality<br/>
+ [] Dashboard analytics<br/>
+ [] Order management system<br/><br/>
 **Phase 3: Store Front Development**<br/>
- Homepage with hero section<br/>
- Product catalog with filtering<br/>
- Category navigation<br/>
- Product detail pages<br/>
- Shopping cart functionality<br/>
- User authentication<br/><br/>
+ [] Homepage with hero section<br/>
+ [] Product catalog with filtering<br/>
+ [] Category navigation<br/>
+ [] Product detail pages<br/>
+ [] Shopping cart functionality<br/>
+ [] User authentication<br/><br/>
 **Phase 4: Enhanced Features**<br/>
- Product reviews and ratings<br/>
- Advanced filtering and sorting<br/>
- Stock management<br/>
- Multiple image support<br/>
- Responsive design<br/>
- Brand categorization<br/>
+ [] Product reviews and ratings<br/>
+ [] Advanced filtering and sorting<br/>
+ [] Stock management<br/>
+ [] Multiple image support<br/>
+ [] Responsive design<br/>
+ [] Brand categorization<br/>
 **Phase 5: Optimization & Polish**<br/>
- Performance optimization<br/>
- SEO implementation<br/>
- Loading states<br/>
- Error handling<br/>
- Input validation<br/>
- Security enhancements<br/><br/>
+ [] Performance optimization<br/>
+ [] SEO implementation<br/>
+ [] Loading states<br/>
+ [] Error handling<br/>
+ [] Input validation<br/>
+ [] Security enhancements<br/><br/>
 **Features**<br/>
 Admin Dashboard<br/>
 Secure admin authentication<br/>
