@@ -30,7 +30,7 @@ A full-stack e-commerce solution built with MongoDB, Express.js, React, Node.js 
  [ ] Stock management<br/>
  [ ] Multiple image support<br/>
  [ ] Responsive design<br/>
- [ ] Brand categorization<br/>
+ [ ] Brand categorization<br/><br/>
 **Phase 5: Optimization & Polish**<br/>
  [ ] Performance optimization<br/>
  [ ] SEO implementation<br/>
