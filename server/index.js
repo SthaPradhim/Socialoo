@@ -2,16 +2,38 @@ const express = require("express");
 const app = express();
 const port = 8000;
 
+const mongoose = require("mongoose");
+mongoose.connect("mongodb://127.0.0.1:27017/TradeNepalDB");
+const { Schema } = mongoose;
+
+const userSchema = new Schema({
+  email: String,
+  fullName: String,
+  phoneNumber: Number,
+  password: String,
+  role: {
+    type: String,
+    enum: ["user", "admin"],
+    default: "user",
+  },
+});
+const User = mongoose.model("User", userSchema);
+User.create({
+  email: "pradhimshrestha@gmail.com",
+  phoneNumber: 9845933965,
+  role: "admin",
+});
+
 app.get("/", (req, res) => {
   res.send("Hello World!");
 });
 
 app.get("/users", (req, res) => {
-  res.send(['Ram','Hari','Gopal','Shyam']);
+  res.send(["Ram", "Hari", "Gopal", "Shyam"]);
 });
 
 app.get("/products", (req, res) => {
-  res.send(['Apple Watch','Denim Jeans','Gold Star Shoes']);
+  res.send(["Apple Watch", "Denim Jeans", "Gold Star Shoes"]);
 });
 
 app.listen(port, () => {
