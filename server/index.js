@@ -18,10 +18,11 @@ const userSchema = new Schema({
   },
 });
 const User = mongoose.model("User", userSchema);
-User.create({
-  email: "pradhimshrestha@gmail.com",
-  phoneNumber: 9845933965,
-  role: "admin",
+app.use(express.json());
+
+app.post("/register", (req, res) => {
+  User.create(req.body);
+  res.send("OK");
 });
 
 app.get("/", (req, res) => {
